@@ -19,3 +19,11 @@ def addition():
     print(a+b)
 
 addition()
+
+#Args in Function 
+
+def additionofnumbers(x,y):
+    return(x+y)
+
+result = additionofnumbers(1,2)
+print(result)
