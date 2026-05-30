@@ -19,3 +19,12 @@ def factorial(n):
     return (n * factorial(n-1))
 
 print(factorial(5))
+
+#Countdown
+
+def count(n):
+    if n==0:
+        return 0
+    print(n)
+    return count(n-1)
+print(count(5))
